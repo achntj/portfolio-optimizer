@@ -1,4 +1,4 @@
-# Portfolio Optimization Web App
+# Portfolio Optimization
 
 This project is a web application built to optimize investment portfolios using **Markowitz Portfolio Theory**, **Black-Litterman Model**, and **Monte Carlo Simulations**. The web app allows users to adjust your target returns, create a portfolio and immediately see the effects on expected returns and risk through real-time visualizations.
 
