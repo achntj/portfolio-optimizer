@@ -14,7 +14,7 @@ st.write("This tool uses Modern Portfolio Theory - specifically Markowitz Optimi
 
 
 def get_asset_data(tickers, start, end):
-    data = yf.download(tickers, start=start, end=end)['Adj Close']
+    data = yf.download(tickers, start=start, end=end, auto_adjust=False)['Adj Close']
     return data
 
 tickers = st.text_input("Enter Tickers from your portfolio", "AAPL, TXNM, MSFT, JNJ, CL, NVDA")
